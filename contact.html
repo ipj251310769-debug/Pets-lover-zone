@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact - Pets lover Zone</title>
+  <meta name="description" content="Contact Pet Lovers Zone for questions, feedback, or collaboration." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="glass-nav">
+    <div class="container nav-container">
+      <div class="logo">
+        <span class="logo-icon">🐾</span>
+        <span>Pets  lover Zone</span>
+      </div>
+
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="care.html">Care Tips</a>
+        <a href="contact.html" class="active">Contact</a>
+        <a href="profile.html">profile</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="page-header container">
+    <h1>Contact Us</h1>
+    <p>Have a question or want to share feedback? Send us a message below.</p>
+  </header>
+
+  <!-- Contact Section -->
+  <main class="container">
+    <section class="contact-card">
+      <div class="contact-info">
+        <h2>Get in touch</h2>
+        <p>We usually reply within 1–2 days.</p>
+
+        <ul class="contact-list">
+          <li><strong>Email:</strong> petloverszone@gmail.com</li>
+          <li><strong>Phone:</strong> +60 106572002</li>
+          <li><strong>Location:</strong> Malaysia</li>
+        </ul>
+      </div>
+
+      <form class="contact-form" action="#" method="post">
+        <div class="form-row">
+          <label for="name">Full Name</label>
+          <input id="name" name="name" type="text" placeholder="Your name" required />
+        </div>
+
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="you@example.com" required />
+        </div>
+
+        <div class="form-row">
+          <label for="subject">Subject</label>
+          <input id="subject" name="subject" type="text" placeholder="Message topic" />
+        </div>
+
+        <div class="form-row">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Write your message..." required></textarea>
+        </div>
+
+        <button class="btn" type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <p>© 2026 Pet Lovers Zone. All rights reserved.</p>
+  </footer>
+</body>
+</html>
